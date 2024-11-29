@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1440px;
   height: 160px;
   background-color: #feb700;
 }
@@ -14,8 +13,7 @@
 }
 .menu {
   display: flex;
-  flex-direction: row;
-  max-width: 1440px;
+  justify-content: center;
   height: 1966px;
   margin: 70px;
 }
@@ -63,7 +61,7 @@
   background-color: #feb700;
   justify-content: space-between;
   align-items: center;
-  width: 1440px;
+  padding: 50px;
 }
 .footer-child {
   font-size: 50px;
